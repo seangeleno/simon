@@ -1,0 +1,131 @@
+body {
+  background-color: rgba(0,0,0,.2);
+}
+
+h1 {
+  width: 100%;
+  margin: auto;
+  background-color: #F3F3F3;
+  height: 52px;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-family: Arial;
+  text-align: center;
+  line-height: 48px;
+  text-shadow: 1px 1px 1px #FFF;
+  border-bottom: solid 1px #5492CA;
+  white-space: nowrap;
+}
+.startButton{
+    border: solid 1px #5492CA;
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 38px;
+    border-radius: 6px;
+    text-shadow: 1px 1px 1px #FFF;
+    font-family: Arial;
+}
+
+
+.mainCircle {
+	width: 400px;
+	height: 400px;
+	background: rgba(0,0,0,.75);
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50%;
+  /*z-index: -1;*/
+  margin: 0 auto;
+  position: relative;
+  border: 5px black solid;
+}
+
+#greenButton{
+  background-color: rgba(53, 190, 53,.75);
+  height: 200px;
+  width: 200px;
+  -moz-border-radius: 200px 0 0 0;
+  border-radius: 200px 0 0 0;
+  position: absolute;
+  /*border: 2px solid black;*/
+}
+#greenButton:active{
+  background-color: rgba(53, 190, 53,1);
+
+}
+#redButton{
+  background-color: rgba(245, 45, 45, .75);
+  height: 200px;
+  width: 200px;
+  -moz-border-radius: 0 200px 0 0;
+  border-radius:  0 200px 0 0;
+  position: absolute;
+  left: 50%;
+}
+#redButton:active {
+  background-color: rgba(245, 45, 45, 1);
+}
+
+#yellowButton{
+  background-color: rgba(245, 245, 45, .75);
+  height: 200px;
+  width: 200px;
+  -moz-border-radius: 0 0 200px 0;
+  border-radius:  0 0 200px 0 ;
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  /*border: 2px solid black;*/
+}
+#yellowButton:active{
+  background-color: rgba(245, 245, 45, 1);
+}
+
+#blueButton{
+  background-color: rgba(45, 45, 245, .75);
+  height: 200px;
+  width: 200px;
+  -moz-border-radius: 0 0 0 200px;
+  border-radius: 0 0 0 200px;
+  position: absolute;
+  right: 50%;
+  bottom: 0%;
+}
+
+#blueButton:active {
+  background-color: rgba(45, 45, 245, 1);
+}
+
+
+.resetButton {
+  /*height: 75px;
+  width: 75px;
+  background-color: black;
+  border-radius: 100%;
+  color: white;
+  font-family: Impact;
+  border: green 2px solid;
+  margin: 0 auto;
+  text-align: center;*/
+    border: solid 1px #5492CA;
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 38px;
+    border-radius: 6px;
+    /*text-shadow: 1px 1px 1px #FFF;*/
+    font-family: Arial;
+}
+
+#score1{
+  font-family: 'Lemon', cursive;
+}
+#score2{
+  font-family: 'Lemon', cursive;
+}
+.players{font-family: 'Lemon', cursive;}
+
+.fade {
+
+}

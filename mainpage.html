@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sean's Simon Game</title>
+    <link rel="stylesheet" href="stylesheets.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lemon' rel='stylesheet' type='text/css'>
+    <link href='https://code.jquery.com/ui/1.11.4/themes/flick/jquery-ui.css' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+  </head>
+  <body>
+<audio id="sound1" preload="auto" src="sounds/simonSound1.mp3"></audio>
+<audio id="sound2" preload="auto" src="sounds/simonSound2.mp3"></audio>
+<audio id="sound3" preload="auto" src="sounds/simonSound3.mp3"></audio>
+<audio id="sound4" preload="auto" src="sounds/simonSound4.mp3"></audio>
+<audio id="sound5" preload="auto" src="sounds/game_over.wav"></audio>
+<h1 class="myH1">Sean's Awesome Simon Game</h1>
+
+<div class="container">
+  <button type="button" name="button" class="startButton">Start Game</button>
+  <button type="button" name="button" class="resetButton">Reset Game</button>
+  <br>
+  <div class="mainCircle">
+    <div class="buttons" id="greenButton"></div>
+    <div class="buttons" id="redButton"></div>
+    <div class="buttons" id="blueButton"></div>
+    <div class="buttons" id="yellowButton">
+  </div>
+</div>
+
+<span class="players">Player 1: <div id="score1">0</div></span>
+<br>
+<span class="players">Player 2: <div id="score2">0</div> </span>
+<br>
+
+
+<div id="dialog" title="You Lose, LOSER!">
+  <p class="dialogMsg"></p>
+</div>
+
+    <script type="text/javascript" src='logic.js'></script>
+  </body>
+</html>
