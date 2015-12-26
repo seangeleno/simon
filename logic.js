@@ -48,7 +48,7 @@ var compareClick = function(){
   var position = playerGuess.length - 1;
 
   if (lastClick !== currentCombo[position]){
-    //wrong, end
+    //if wrong then end
     inform("Incorrect Combo, nice try, your score was " + playerScore);
     document.getElementById('score1').innerHTML = playerScore;
     playSound(4);
@@ -73,7 +73,6 @@ var checkScore = function () {
       currentCombo.push(randomize());
       console.log(currentCombo);
       //use a for loop to iterate over the currentCombo array and flash each button
-      //BEST PART!
       for (var i = 0; i < currentCombo.length; i++) {
         setTimeout(function(index) {
           flashButton(currentCombo[index]);
