@@ -4,19 +4,19 @@
 
 For my Project #1 I decided to do the classic memory game called Simon. 
 
-Simon's tones were designed to always be harmonic and consisted of an A major triad in second inversion which resembles a Trumpet fanfare:
+Simon's tones were designed to always be harmonic and consisted of an A major triad in second inversion:
 
-** E-note (blue, lower right);
-** C♯-note (yellow, lower left);
-** A-note (red, upper right).
-** E-note (green, upper left, an octave lower than blue);
+**E-note (blue, lower right)**
+**C♯-note (yellow, lower left)**
+**A-note (red, upper right).**
+**E-note (green, upper left, an octave lower than blue)**
 
 ### Technologies Used
 
-** HTML
-** CSS
-** Javascript
-** jQuery
+**HTML**
+**CSS**
+**Javascript**
+**jQuery**
 
 **These are the original instructions**
 Let's start out with something fun - **a game!**
