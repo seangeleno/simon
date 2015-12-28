@@ -1,4 +1,4 @@
-//global variables and empty arrays
+//variables and empty arrays
 var playerGuess  = []
 ,   currentCombo = []
 ,   playerScore  = 0
